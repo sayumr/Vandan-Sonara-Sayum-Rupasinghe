@@ -1,4 +1,6 @@
-import customtkinter
+import customtkinter as ctk
 
-print("hello")
-print("Welcome to our ATM")
+app = ctk.CTk()
+app.geometry("400x150")
+
+welcome_text = ctk.CTkTextbox(app)
